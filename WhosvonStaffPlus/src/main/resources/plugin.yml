@@ -1,0 +1,76 @@
+name: WhosvonStaffPlus
+main: com.whosvon.kits.whosvonstaffplus.WhosvonStaffPlus
+version: 1.0.0
+api-version: 1.20
+commands:
+  staff:
+    description: List the staff commands
+    usage: /staff
+    permission: whosvonstaffplus.staff
+  tempban:
+    description: Ban a player
+    usage: /tempban <player> <1d:1h> <Reason>
+    permission: whosvonstaffplus.ban
+  unban:
+    description: Unban a player
+    usage: /unban <player>
+    permission: whosvonstaffplus.unban
+  mute:
+    description: Mute a player
+    usage: /mute <player> <1d:1h> <Reason>
+    permission: whosvonstaffplus.mute
+  unmute:
+    description: Unmute a player
+    usage: /unmute <player>
+    permission: whosvonstaffplus.unmute
+  freeze:
+    description: Freeze a player
+    usage: /freeze <player>
+    permission: whosvonstaffplus.freeze
+  unfreeze:
+    description: Unfreeze a player
+    usage: /unfreeze <player>
+    permission: whosvonstaffplus.unfreeze
+  commandspy:
+    description: Toggle command spy mode
+    usage: /commandspy <on|off>
+    permission: whosvonstaffplus.commandspy
+  staffmode:
+    description: Enable or disable staff mode
+    usage: /staffmode <on|off>
+    permission: whosvonstaffplus.staffmode
+  invsee:
+    description: View a player's inventory
+    usage: /invsee <player>
+    permission: whosvonstaffplus.invsee
+permissions:
+  whosvonstaffplus.staff:
+    description: Allows access to staff commands
+    default: op
+  whosvonstaffplus.ban:
+    description: Allows banning of players
+    default: op
+  whosvonstaffplus.unban:
+    description: Allows unbanning of players
+    default: op
+  whosvonstaffplus.mute:
+    description: Allows muting of players
+    default: op
+  whosvonstaffplus.unmute:
+    description: Allows unmuting of players
+    default: op
+  whosvonstaffplus.freeze:
+    description: Allows freezing of players
+    default: op
+  whosvonstaffplus.unfreeze:
+    description: Allows unfreezing of players
+    default: op
+  whosvonstaffplus.commandspy:
+    description: Allows spying on player commands
+    default: op
+  whosvonstaffplus.staffmode:
+    description: Allows enabling or disabling of staff mode
+    default: op
+  whosvonstaffplus.invsee:
+    description: Allows viewing of player inventories
+    default: op

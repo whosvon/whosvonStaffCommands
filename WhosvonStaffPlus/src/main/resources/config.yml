@@ -1,0 +1,40 @@
+commands:
+  staff:
+    list: "/tempban <player> <1d:1h> <Reason>\n/unban <player>\n/mute <player> <1d:1h> <Reason>\n/unmute <player>\n/freeze <player>\n/unfreeze <player>\n/commandspy <on|off>\n/staffmode <on|off>\n/invsee <player>"
+messages:
+  tempban:
+    usage: "Usage: /tempban <player> <1d:1h> <Reason>"
+    not_found: "Player not found."
+    kick_message: "You have been banned: {reason}"
+  unban:
+    usage: "Usage: /unban <player>"
+    success: "{player} has been unbanned."
+  mute:
+    usage: "Usage: /mute <player> <1d:1h> <Reason>"
+    not_found: "Player not found."
+    mute_message: "You have been muted: {reason}"
+  unmute:
+    usage: "Usage: /unmute <player>"
+    success: "{player} has been unmuted."
+  freeze:
+    usage: "Usage: /freeze <player>"
+    not_found: "Player not found."
+    freeze_message: "Join Discord YourLinkHere"
+  unfreeze:
+    usage: "Usage: /unfreeze <player>"
+    success: "{player} has been unfrozen."
+  commandspy:
+    usage: "Usage: /commandspy <on|off>"
+    enabled: "CommandSpy enabled."
+    disabled: "CommandSpy disabled."
+  staffmode:
+    usage: "Usage: /staffmode <on|off>"
+    enabled: "Staff mode enabled."
+    disabled: "Staff mode disabled."
+  invsee:
+    usage: "Usage: /invsee <player>"
+staffmode:
+  items:
+    randomtp: "RandomTP"
+    check_inventory: "Check Inventory"
+    freeze: "Freeze"
